@@ -5,7 +5,7 @@
   border: none;
   padding-bottom: 3px;
 }
-.container{
+.container {
   width: 50%;
 }
 .input {
@@ -17,7 +17,7 @@
   font-size: 19px;
   padding: 10px;
   border: none;
-  
+
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
