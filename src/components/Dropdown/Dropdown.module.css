@@ -9,6 +9,22 @@
   width: 50%;
 }
 
+.result {
+  background-color: var(--bkg-secondary-color);
+  border-radius: 24px;
+  margin-left: 8px;
+  border: none;
+  color: var(--text-secondary-color);
+  font-size: 19px;
+  padding: 10px;
+  border: none;
+  font-family: var(--rubik);
+  width: 50%;
+  &:focus {
+    color: var(--text-primary-color);
+    outline: 1px solid var(--text-primary-color);
+  }
+}
 .select {
   background-color: var(--bkg-secondary-color);
   border-radius: 24px;
@@ -25,12 +41,13 @@
     outline: 1px solid var(--text-primary-color);
   }
 }
+/*
 .option {
   font-family: var(--rubik);
   background-color: var(--bkg-secondary-color);
-}
+} */
 
-.NotSubmitted {
+/* .NotSubmitted {
   background-color: var(--status-grey);
   font-family: var(--rubik);
 }
@@ -48,4 +65,4 @@
 }
 .OfferReceived {
   background-color: var(--status-green);
-}
+} */
