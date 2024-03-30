@@ -17,8 +17,7 @@
   font-size: 19px;
   padding: 10px;
   border: none;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-
+  font-family: var(--rubik);
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
