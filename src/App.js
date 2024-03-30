@@ -1,15 +1,7 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ShortTextField from "./components/ShortTextField/ShortTextField";
+import './App.css';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<ShortTextField />}></Route>
-      </Routes>
-    </BrowserRouter>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
