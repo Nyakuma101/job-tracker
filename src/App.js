@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Title from "./Components/Title/Title.mondule";
+import JobDescription from "./Components/JobDescription/JobDescription.module";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Title />}></Route>
+        <Route path="/" element={<JobDescription />}></Route>
       </Routes>
     </BrowserRouter>
   );
