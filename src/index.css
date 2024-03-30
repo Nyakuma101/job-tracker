@@ -17,6 +17,13 @@ body {
   --text-secondary-color: #9399a2;
   --cta-primary-color: #0095ff;
 
+  --status-grey: #cecece;
+  --status-yellow: #f2cf68;
+  --status-red: #fe655c;
+  --status-orange: #e5842b;
+  --status-cyan: #5be1f3;
+  --status-green: #74f669;
+
   background-color: var(--bkg-primary-color);
   color: var(--text-primary-color);
   font-family: var(--rubik);
