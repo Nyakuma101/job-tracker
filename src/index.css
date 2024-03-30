@@ -17,6 +17,9 @@ body {
   --text-primary-color: #f0f1f1;
   --text-secondary-color: #9399a2;
   --cta-primary-color: #0095ff;
+
+  background-color: var(--bkg-primary-color);
+  color: var(--text-primary-color);
 }
 
 code {
