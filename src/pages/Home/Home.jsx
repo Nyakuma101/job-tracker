@@ -2,16 +2,18 @@ import React from 'react';
 import Card from '../../components/Card/Card';
 import AddCardButton from '../../components/AddCardButton/AddCardButton';
 import ShortTextField from '../../components/ShortTextField/ShortTextField';
-import LongTextField from '../../components/LongTextField/LongTextField';
+import StarField from '../../components/StarField/StarField';
+import { useState } from 'react';
 
 export default function Home() {
+  const [priority, setPriority] = useState(1);
   return (
     <div>
       <h1>Home page</h1>
-      <LongTextField text="Job Description" />
-      <ShortTextField text="Job Title" />
+      <ShortTextField text="Home Page" />
       <Card />
       <AddCardButton />
+      <StarField priority={priority} setPriority={setPriority} />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.label {
+  font-size: 0.9rem;
+}
+
+.field {
+  display: flex;
+  border-radius: 20px;
+  background-color: var(--bkg-secondary-color);
+}
+
+.starButton {
+  background-color: unset;
+  border: unset;
+  padding: 0.15rem;
+}
