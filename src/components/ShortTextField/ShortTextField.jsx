@@ -1,11 +1,12 @@
-import styles from "./ShortTextField.module.css";
+import styles from './ShortTextField.module.css';
 
-export default function ShortTextField({text}) {
-
+export default function ShortTextField({ text }) {
   return (
     <label className={styles.label}>
-      <div className={styles.text}>{text}</div>
-      <input placeholder={"Placeholder"} type="text"  name="title__name"className={styles.input}></input>
+      <div className={styles.container}>
+        <div className={styles.text}>{text}</div>
+        <input placeholder={'Software Engineer'} type="text" name="title__name" className={styles.input}></input>
+      </div>
     </label>
   );
 }
