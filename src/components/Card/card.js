@@ -1,6 +1,6 @@
-import styles from "./card.module.css";
-import starActive from "../../assets/images/star-active.svg";
-import starInActive from "../../assets/images/star-inactive.svg";
+import styles from './card.module.css';
+import starActive from '../../assets/images/star-active.svg';
+import starInActive from '../../assets/images/star-inactive.svg';
 
 function Card() {
   return (
