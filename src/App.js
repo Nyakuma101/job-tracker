@@ -1,12 +1,7 @@
 import './App.css';
-import Card from './components/Card/card';
 
 function App() {
-  return (
-    <div className="App">
-      <Card />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
