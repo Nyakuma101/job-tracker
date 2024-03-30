@@ -17,6 +17,7 @@
   font-size: 19px;
   padding: 10px;
   border: none;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 
   &:focus {
     color: var(--text-primary-color);

@@ -5,7 +5,7 @@ export default function ShortTextField({ text }) {
     <label className={styles.label}>
       <div className={styles.container}>
         <div className={styles.text}>{text}</div>
-        <input placeholder={'Software engineer'} type="text" name="title__name" className={styles.input}></input>
+        <input placeholder={'Software Engineer'} type="text" name="title__name" className={styles.input}></input>
       </div>
     </label>
   );
