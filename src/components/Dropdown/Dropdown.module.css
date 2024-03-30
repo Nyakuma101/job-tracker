@@ -32,6 +32,7 @@
 
 .NotSubmitted {
   background-color: var(--status-grey);
+  font-family: var(--rubik);
 }
 .Submitted {
   background-color: var(--status-yellow);
