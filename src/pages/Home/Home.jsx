@@ -3,6 +3,7 @@ import Card from '../../components/Card/Card';
 import AddCardButton from '../../components/AddCardButton/AddCardButton';
 import ShortTextField from '../../components/ShortTextField/ShortTextField';
 import StarField from '../../components/StarField/StarField';
+import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import { useState } from 'react';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Card />
       <AddCardButton />
       <StarField priority={priority} setPriority={setPriority} />
+      <SubmitButton text="Submit" />
     </div>
   );
 }

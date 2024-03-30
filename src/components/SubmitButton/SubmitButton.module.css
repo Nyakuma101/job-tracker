@@ -1,0 +1,9 @@
+.submit {
+  border: unset;
+  background-color: var(--cta-primary-color);
+  border-radius: 24px;
+  color: var(--text-primary-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
