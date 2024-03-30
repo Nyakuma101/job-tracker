@@ -1,0 +1,28 @@
+.text {
+    font-size: 14px;
+    color: var(--text-primary-color);
+    padding: 5px 1px 1px 1rem;
+    border: none;
+    padding-bottom: 3px;
+  }
+  
+  .container{
+    width: 50%; 
+  }
+  .input {
+    background-color: var(--bkg-secondary-color);
+    border-radius: 24px;
+    margin-left: 8px;
+    border: none;
+    color: var(--text-secondary-color);
+    font-size: 19px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+
+    &:focus {
+      color: var(--text-primary-color);
+      outline: 1px solid var(--text-primary-color);
+    }
+  }
+  

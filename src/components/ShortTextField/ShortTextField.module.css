@@ -3,8 +3,11 @@
   color: var(--text-primary-color);
   padding: 5px 1px 1px 1rem;
   border: none;
+  padding-bottom: 3px;
 }
-
+.container{
+  width: 50%;
+}
 .input {
   background-color: var(--bkg-secondary-color);
   border-radius: 24px;
@@ -12,8 +15,9 @@
   border: none;
   color: var(--text-secondary-color);
   font-size: 19px;
-  padding-left: 5px;
+  padding: 10px;
   border: none;
+  
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
