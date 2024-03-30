@@ -1,13 +1,4 @@
 body {
-<<<<<<< HEAD
-  @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-  font-family: "Rubik", system-ui, -apple-system, sans-serif;
-
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-=======
   @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
   font-family:
     'Rubik',
@@ -18,7 +9,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', sans-serif;
->>>>>>> main
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -27,14 +17,6 @@ body {
   --text-primary-color: #f0f1f1;
   --text-secondary-color: #9399a2;
   --cta-primary-color: #0095ff;
-<<<<<<< HEAD
-  --status-interview-background: #f2cf68;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-=======
 
   background-color: var(--bkg-primary-color);
   color: var(--text-primary-color);
@@ -42,5 +24,4 @@ code {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
->>>>>>> main
 }
