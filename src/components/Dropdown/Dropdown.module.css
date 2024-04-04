@@ -36,7 +36,6 @@
   border: none;
   font-family: var(--rubik);
   width: 30%;
-  appearance: none;
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
