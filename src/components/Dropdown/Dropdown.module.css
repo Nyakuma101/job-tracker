@@ -19,7 +19,7 @@
   padding: 10px;
   border: none;
   font-family: var(--rubik);
-  width: 50%;
+
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
@@ -35,34 +35,10 @@
   padding: 10px;
   border: none;
   font-family: var(--rubik);
-  width: 50%;
+  width: 30%;
+  appearance: none;
   &:focus {
     color: var(--text-primary-color);
     outline: 1px solid var(--text-primary-color);
   }
 }
-/*
-.option {
-  font-family: var(--rubik);
-  background-color: var(--bkg-secondary-color);
-} */
-
-/* .NotSubmitted {
-  background-color: var(--status-grey);
-  font-family: var(--rubik);
-}
-.Submitted {
-  background-color: var(--status-yellow);
-}
-.NoCallback {
-  background-color: var(--status-red);
-}
-.InterviewScheduled {
-  background-color: var(--status-orange);
-}
-.Interviewing {
-  background-color: var(--status-cyan);
-}
-.OfferReceived {
-  background-color: var(--status-green);
-} */
