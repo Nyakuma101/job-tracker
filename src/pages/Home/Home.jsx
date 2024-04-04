@@ -6,13 +6,17 @@ import StarField from '../../components/StarField/StarField';
 import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import CheckBox from '../../components/CheckBox/CheckBox';
 import { useState } from 'react';
+import LongTextField from '../../components/LongTextField/LongTextField';
+import Dropdown from '../../components/Dropdown/Dropdown';
 
 export default function Home() {
   const [priority, setPriority] = useState(1);
   return (
     <div>
       <h1>Home page</h1>
-      <ShortTextField text="Home Page" />
+      <ShortTextField text="Short Text Field"/>
+      <LongTextField text="Long Text Field"/>
+      <Dropdown text="Dropdown"/>
       <Card />
       <AddCardButton />
       <StarField priority={priority} setPriority={setPriority} />
